@@ -8,6 +8,8 @@ import './index.css';
 
 addLocaleData(esLocaleData);
 
+console.log(esLocaleData)
+
 const messages = defineMessages({
   es: {
     welcome: '{GENDER, select, male{Bienvenido} female{Bienvenida} other{Bienvenidos} } {NAME}'
